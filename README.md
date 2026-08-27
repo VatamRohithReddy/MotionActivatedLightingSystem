@@ -1,26 +1,44 @@
-## 🔍 IR Sensor Detection Module
+## 🚦 Smart Traffic Detection System (IR Sensor Module)
 
-This module uses two IR sensors to detect object presence and provides visual feedback using LEDs.
+This module is a part of the **Smart Traffic System** that uses IR sensors to detect vehicle movement and control traffic indicators. The IR sensors identify the presence of vehicles on different lanes, and the detected information can be used for traffic monitoring and automation.
 
-### Working
+### ⚙️ Working Principle
 
-- IR sensors are connected to Arduino digital input pins.
-- When an object is detected, the IR sensor output becomes LOW.
-- The corresponding LED turns ON.
-- Detection status is displayed through the Serial Monitor.
+- IR sensors are placed on traffic lanes to detect vehicles.
+- When a vehicle passes in front of the IR sensor, the sensor output becomes LOW.
+- The Arduino processes the sensor data.
+- LEDs indicate the detection status of each lane.
+- The system can be extended to control traffic lights dynamically based on vehicle density.
 
-### Pin Configuration
+### 🔧 Hardware Components
+
+- Arduino Uno / Microcontroller
+- IR Obstacle Sensors
+- LEDs (Traffic Indicators)
+- Jumper Wires
+- Breadboard
+- Power Supply
+
+### 🔌 Pin Configuration
 
 | Component | Arduino Pin |
 |-----------|-------------|
 | IR Sensor 1 | D2 |
 | IR Sensor 2 | D3 |
-| LED 1 | D7 |
-| LED 2 | D6 |
+| LED Indicator 1 | D7 |
+| LED Indicator 2 | D6 |
 
-### Applications
+### 💻 Code Functionality
 
-- Smart dustbin object detection
-- Object counting systems
-- Automation projects
-- Obstacle detection
+- Reads input from two IR sensors.
+- Detects vehicle presence.
+- Turns ON the corresponding LED indicator.
+- Sends detection messages through the Serial Monitor.
+
+### 🚗 Applications
+
+- Smart traffic signal systems
+- Vehicle detection
+- Traffic density monitoring
+- Intelligent transportation systems
+- Automated traffic management
