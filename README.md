@@ -6,6 +6,21 @@ This project demonstrates sensor-based automation where IR sensors detect motion
 
 ---
 
+## 🎥 Live Demo
+
+Watch the working demonstration of the **MotionActivatedLightingSystem**:
+
+🔗 **Live Demo Video:**  
+https://drive.google.com/file/d/1uuEKGOOKe3Mk7hh86YKsN2Z2efqubc5e/view?usp=sharing
+
+The demo shows:
+- IR sensor-based object detection
+- Automatic LED ON/OFF control
+- Real-time sensor response
+- Arduino-based automation working process
+
+---
+
 ## 🚀 Features
 
 - 🔍 Motion/object detection using IR sensors
