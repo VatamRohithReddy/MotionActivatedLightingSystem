@@ -114,17 +114,3 @@ G --> H[Continuous Monitoring]
 - Object detection systems
 
 ---
-
-## 🔮 Future Improvements
-
-- Add PIR sensors for better motion detection
-- Control lights using Wi-Fi/Bluetooth
-- Add mobile app integration
-- Add automatic brightness control using LDR sensors
-- Store sensor activity data
-
----
-
-## 👨‍💻 Author
-
-**Vatam Rohith Reddy**
